@@ -16,6 +16,8 @@ export class NavMenu extends Component {
         const { activeItem } = this.state
         //debugger;
         return (
+
+            //addedd new nav menu
             <Menu horizontal="true">
                 <Menu.Item as={Link} to="/"
                     color='green'
